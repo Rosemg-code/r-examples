@@ -50,7 +50,8 @@ fish_garibaldi <- fish %>%
 
 fish_over50 <- fish %>% 
   filter(total_count > 50)
-
+fish_over20 <- fish %>% 
+  filter(total_count > 20)
 
 # Filter to return rows that match this OR that OR that
 
