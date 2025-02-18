@@ -58,7 +58,7 @@ gg_base +
 # We return to the scatterplot:
 
 gg_base + 
-  geom_point(col = "purple", pch = 17, size = 4, alpha = 0.5)
+  geom_point(col = "purple", fill = "green", pch = 24, size = 4, alpha = 0.5)
 
 gg_base + 
   geom_point(aes(size = visitors, col = visitors), alpha = 0.5)  
